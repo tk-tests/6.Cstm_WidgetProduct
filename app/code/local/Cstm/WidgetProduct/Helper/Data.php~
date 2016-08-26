@@ -1,9 +1,0 @@
-<?php
-
-/**
- * @author : karim esseddouk 
- * @Email  : karim.esseddouk@gmail.com
- */
-class Cstm_WidgetProduct_Helper_Data extends Mage_Core_Helper_Abstract
-{
-}
