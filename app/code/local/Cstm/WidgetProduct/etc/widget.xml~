@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<widgets>
+    <widgetproduct_sku type="widgetproduct/product" >
+        <name>Widget Product By Sku</name>
+        <parameters>
+            <sku>
+                <label>SKU</label>
+                <visible>1</visible>
+                <required>1</required>
+                <type>text</type>
+            </sku>
+        </parameters>
+    </widgetproduct_sku>
+</widgets>
