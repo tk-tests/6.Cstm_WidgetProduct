@@ -1,22 +1,25 @@
 <?xml version="1.0"?>
-
 <config>
-    <modules>
-        <Cstm_WidgetProduct>
-            <version>1.0.0</version>
-        </Cstm_WidgetProduct>
-    </modules>
-    <global>
-        <helpers>
-            <widgetproduct>
-                <class>Cstm_widgetProduct_Helper</class>
-            </widgetproduct>
-        </helpers>
-        <blocks>
-            <widgetproduct>
-                <class>Cstm_widgetProduct_Block</class>
-            </widgetproduct>
-        </blocks>
-    
-    </global>
+	<modules>
+		<Cstm_WidgetProduct>
+			<version>1.0.0</version>
+		</Cstm_WidgetProduct>
+	</modules>
+	<global>
+		<blocks>
+			<widgetproduct>
+				<class>Cstm_WidgetProduct_Block</class>
+			</widgetproduct>
+		</blocks>
+		<helpers>
+			<widgetproduct>
+				<class>Cstm_WidgetProduct_Helper</class>
+			</widgetproduct>
+		</helpers>
+		<models>
+			<widgetproduct>
+				<class>Cstm_WidgetProduct_Model</class>
+			</widgetproduct>
+		</models>
+	</global>
 </config>

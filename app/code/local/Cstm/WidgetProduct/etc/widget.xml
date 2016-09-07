@@ -1,14 +1,18 @@
 <?xml version="1.0"?>
 <widgets>
-    <widgetproduct_sku type="widgetproduct/sku" >
-        <name>Widget Product By Sku</name>
-        <parameters>
-            <sku>
-                <label>SKU</label>
-                <visible>1</visible>
-                <required>1</required>
-                <type>text</type>
-            </sku>
-        </parameters>
-    </widgetproduct_sku>
+	<widgetproduct_nov type="widgetproduct/product">
+		<name>Custom Widget Product</name>
+		<description type="desc">New Widget Product</description>
+		<parameters>
+			
+			<query_reviews_by>
+		        <label>SKU prouct</label>
+		        <visible>1</visible>
+		        <required>1</required>
+		        <type>text</type>
+		        
+		        
+		    </query_reviews_by>
+		</parameters>
+	</widgetproduct_nov>
 </widgets>

@@ -3,10 +3,8 @@
     <modules>
         <Cstm_WidgetProduct>
             <active>true</active>
+            
             <codePool>local</codePool>
-			<depends>
-                <Mage_Widget/>
-            </depends>
         </Cstm_WidgetProduct>
     </modules>
-</config>
+</config> 
